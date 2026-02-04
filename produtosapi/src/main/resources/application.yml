@@ -1,4 +1,4 @@
-string:
+spring:
     application:
       name: Produtos API
     datasource:
