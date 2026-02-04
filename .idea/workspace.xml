@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56833979-4fe6-44fe-afb4-bddb522eafb7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="39AF1GUVGJJ6YS8ZlxJIyNT4HES" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ProdutosApiApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.ProdutosApiApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/atonn/Documentos/dev/Udemy/udemy-springboot-expert",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.ProdutosApiApplication">
+    <configuration name="ProdutosApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.udemy_springboot_expert.produtosapi.ProdutosApiApplication" />
+      <module name="udemy-springoot-expert" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutosApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="produtosapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.udemy_springboot_expert.produtosapi.ProdutosApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProdutosApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56833979-4fe6-44fe-afb4-bddb522eafb7" name="Changes" comment="" />
+      <created>1770130751883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770130751883</updated>
+      <workItem from="1770130752929" duration="118000" />
+      <workItem from="1770130888733" duration="1000000" />
+      <workItem from="1770162624236" duration="18000" />
+      <workItem from="1770162653091" duration="112000" />
+      <workItem from="1770162773013" duration="22000" />
+      <workItem from="1770162802076" duration="46000" />
+      <workItem from="1770163021014" duration="73000" />
+      <workItem from="1770163102266" duration="127000" />
+      <workItem from="1770163253246" duration="1064000" />
+      <workItem from="1770164318841" duration="418000" />
+      <workItem from="1770164747804" duration="2170000" />
+      <workItem from="1770205528307" duration="330000" />
+    </task>
+    <task id="LOCAL-00001" summary="Arrumando consigurações do Pom.xml">
+      <option name="closed" value="true" />
+      <created>1770166265439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770166265439</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Criando classe produto na model e produtocontroller na controller para a criação de produtos">
+      <option name="closed" value="true" />
+      <created>1770166341654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770166341654</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Mapeamento de requisição POST inicial para produto com postman">
+      <option name="closed" value="true" />
+      <created>1770166371370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770166371370</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Mapeamento de requisição POST inicial para produto com postman">
+      <option name="closed" value="true" />
+      <created>1770166384552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770166384552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Arrumando consigurações do Pom.xml" />
+    <MESSAGE value="Criando classe produto na model e produtocontroller na controller para a criação de produtos" />
+    <MESSAGE value="Mapeamento de requisição POST inicial para produto com postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mapeamento de requisição POST inicial para produto com postman" />
+  </component>
+</project>
