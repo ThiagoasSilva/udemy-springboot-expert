@@ -2,11 +2,9 @@ package io.github.udemy_springboot_expert.produtosapi.controller;
 
 import io.github.udemy_springboot_expert.produtosapi.model.Produto;
 import io.github.udemy_springboot_expert.produtosapi.repository.ProdutoRepository;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
 import java.util.UUID;
 
 @RestController
@@ -26,5 +24,13 @@ public class ProdutoController {
         produto.setId(id); //setando a variavel id no produto
         produtoRepository.save(produto);
         return produto;
+    }
+
+    @GetMapping("/{id}")
+    public Produto buscarPorId(@PathVariable("id") String id){
+        // Optional<Produto> produto = produtoRepository.findById(id);
+        // return produto.isPresent() ? produto.get() : null;
+        // OU de uma maneira mais simple abaixo
+        return produtoRepository.findById(id).orElse(null);
     }
 }
