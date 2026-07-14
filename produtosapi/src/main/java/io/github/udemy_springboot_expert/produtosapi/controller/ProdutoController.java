@@ -4,6 +4,7 @@ import io.github.udemy_springboot_expert.produtosapi.model.Produto;
 import io.github.udemy_springboot_expert.produtosapi.repository.ProdutoRepository;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -32,5 +33,16 @@ public class ProdutoController {
         // return produto.isPresent() ? produto.get() : null;
         // OU de uma maneira mais simple abaixo
         return produtoRepository.findById(id).orElse(null);
+    }
+
+    @RequestMapping("/buscatudo")
+    public Produto buscarTudo(@RequestBody Produto produto){
+        List<Produto> produtos = produtoRepository.findAll();
+        return produtos.get(produtos.size());
+    }
+    @DeleteMapping("{id}")
+    public void deletar(String id){
+        System.out.println("Produto deletado: " + id);
+        produtoRepository.deleteById(id);
     }
 }
