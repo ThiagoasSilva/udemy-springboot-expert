@@ -40,9 +40,19 @@ public class ProdutoController {
         List<Produto> produtos = produtoRepository.findAll();
         return produtos.get(produtos.size());
     }
+
     @DeleteMapping("{id}")
-    public void deletar(String id){
+    public void deletar(@PathVariable String id){
         System.out.println("Produto deletado: " + id);
         produtoRepository.deleteById(id);
+    }
+
+    @PutMapping("{id}")
+  //public void atualizar(@PathVariable("id") String id, @RequestBody Produto produto){
+  //produto.setId(id);
+  //Alternativa para usar a conversão automática do uuid do spring
+    public void atualizar(@PathVariable UUID id, @RequestBody Produto produto){
+        produto.setId(String.valueOf(id)); //value of para converter o uuid para string
+        produtoRepository.save(produto);
     }
 }
