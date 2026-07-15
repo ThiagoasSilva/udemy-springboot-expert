@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "3b40d12a-0b30-48be-b28e-80b064d57c92",
+		"name": "Udemy_java-ProdutosAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44411231",
+		"_collection_link": "https://thiago-774918.postman.co/workspace/Thiago's-Workspace~20a1459d-a618-4b4e-8623-94f7dfd57cc1/collection/44411231-3b40d12a-0b30-48be-b28e-80b064d57c92?action=share&source=collection_link&creator=44411231"
+	},
+	"item": [
+		{
+			"name": "Salvar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\":\"RAM\",\n    \"descricao\":\"16GB\",\n    \"preco\":350\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"SSD\",\n    \"descricao\": \"1TB\",\n    \"preco\": 550.0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/produtos/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtos",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "3b716111-a19a-40ba-a52e-8a31465b3ea9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/produtos/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtos",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "ce16e27d-c6a7-4e3c-832b-3c0a6068adb8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarTudo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\":\"RAM\",\n    \"descricao\":\"16GB\",\n    \"preco\":350\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/produtos/buscatudo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtos",
+						"buscatudo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\":\"RAM\",\n    \"descricao\":\"16GB\",\n    \"preco\":350\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/produtos/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtos",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "3b716111-a19a-40ba-a52e-8a31465b3ea9"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

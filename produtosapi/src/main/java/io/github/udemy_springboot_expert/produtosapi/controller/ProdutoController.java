@@ -55,4 +55,11 @@ public class ProdutoController {
         produto.setId(String.valueOf(id)); //value of para converter o uuid para string
         produtoRepository.save(produto);
     }
+
+    @GetMapping("/buscar")
+    public List<Produto> buscar(@RequestParam("nome") String nome){
+        produtoRepository.findByNome(nome);
+        return produtoRepository.findByNome(nome);
+    }
+
 }
