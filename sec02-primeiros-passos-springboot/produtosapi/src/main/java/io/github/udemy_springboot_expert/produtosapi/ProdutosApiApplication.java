@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProdutosApiApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ProdutosApiApplication.class, args);
+
     }
 }
